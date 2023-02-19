@@ -1,0 +1,332 @@
+.tab{
+    border: 2px solid white;
+    height: 30px;
+}
+body{
+    width: 700px;
+}
+#go_payout_page{
+    color:rgb(17, 16, 16);
+    background-color:thistle;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 20px;
+}
+#log_status{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+.wait_after1_label{	
+    color: red;
+	font-size:20px; 
+    display: inline-block;
+    font-family:'Segoe UI';
+    line-height: 30px;
+    color: transparent;
+    text-shadow: 0 0 0 #1079cf;
+    border-width:0px;
+    border:none;
+    text-align: right; 
+}
+#manyclick_label{	
+    color: red;
+	font-size:20px; 
+    display: inline-block;
+    font-family:'Segoe UI';
+    line-height: 30px;
+    color: transparent;
+    text-shadow: 0 0 0 #0d0f9b;
+    border-width:0px;
+    border:none;
+    text-align: right; 
+}
+#wait_time1{
+    width: 100px;	
+    color: red;
+	font-size:20px;
+	font-weight: bold;
+    display: inline-block;
+    font-family: inherit;
+    line-height: 22px;
+    color: transparent;
+    text-shadow: 0 0 0 #8C6FF0;
+    border-width:0px;
+    border:none;
+    text-align: right; 
+}
+
+.waittime{
+    width: 80px;
+    color: red;
+	font-size:20px;
+	font-weight: bold;
+    display: inline-block;
+    font-family: inherit;
+    line-height: 22px;
+    color: transparent;
+    text-shadow: 0 0 0 #f0ecff;
+    border-width:1px;
+    border-radius: 100px;
+    text-align: right; 
+    background-color: transparent;
+}
+#period{
+    width: 100px;	
+    color: rgb(219, 199, 161);
+	font-size:20px;
+	font-weight: bold;
+    display: inline-block;
+    font-family: inherit;
+    line-height: 22px;
+    text-align: center;
+    background-color: transparent;
+    text-shadow: 0 0 0 #dddddd;
+    border-width:0px;
+    border:none;
+    text-align: right; 
+}
+#settime{
+    width: 150px;
+}
+
+#target_link{
+    width: 500px;
+}
+.toolName{
+    text-align: center;
+    color:aqua;
+    font-size: 20px;
+}
+#myProgress {
+    width: 100%;
+    background-color: grey;
+}
+  
+#myBar {
+    width: 0%;
+    height: 20px;
+    background-color: greenyellow;
+}
+.set_control {
+    align-items: center;
+    margin-inline: 20px;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 30px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 20px;
+  }
+  
+  .set_control:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .set_control:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .set_control:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+.div_set_control{
+    padding-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.lock_button{
+    border-style: solid;
+    border-width: 0px 0px 3px;
+    color: #FFFFFF;	   
+    border-radius: 6px;
+    cursor: pointer;
+	display: inline-block;
+	margin: 3px auto 0;
+    font-style: normal;
+    background-color :transparent;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;	
+    font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+    font-weight: 700;	
+    /*padding: 15px 39px 9px;*/
+    font-size: 13px;
+    background-color: rgb(65, 28, 134);
+}
+#addTime{
+    height: 25px;
+    position:inherit;
+    font-size: large;
+}
+.row {
+    padding-top: 10px;
+    display: flex;
+    width: 450px;
+ }
+
+.column {
+    flex: 50%;
+}
+.go_link1{
+    border: solid #4d4e03;
+}
+.go_link2{
+    border: solid rgb(39, 36, 233) ;
+}
+
+.keyword{
+    width: 600px;
+    background-color: transparent;
+    color: rgb(230, 255, 230);
+    white-space: pre;
+    overflow-wrap: normal;
+    font-size: 20px;
+}
+.label_keyword{
+    display: block;
+    color:gold;
+    font-size: 20px;
+}
+
+.switch {
+    position:relative;
+    display: inline-block;
+    width: 40px;
+    height: 23px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 14px;
+  }
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.prefer_size{
+    width: 80px;
+    color: red;
+	font-size:20px;
+	font-weight: bold;
+    display: inline-block;
+    font-family: inherit;
+    line-height: 22px;
+    color: transparent;
+    text-shadow: 0 0 0 #f0ecff;
+    border-width:1px;
+    border-radius: 100px;
+    text-align: center; 
+    background-color: transparent;
+}
+#add_size{
+    color: rgb(0, 255, 76);
+	font-size:20px;
+	font-weight: bold;
+    display: inline-block;
+    font-family: inherit;
+    line-height: 22px;
+    text-shadow: 0 0 0 #8C6FF0;
+    border-width:0px;
+    border:none;
+    text-align: right; 
+    background-color:darkslateblue;
+}
+.button_delete{
+    background-color: transparent;
+    color: deeppink;
+    border-radius: 20px;
+}
+#chat_id{
+    width: 200px;	
+    color: rgb(219, 199, 161);
+	font-size:20px;
+	font-weight: bold;
+    display: inline-block;
+    font-family: inherit;
+    line-height: 22px;
+    text-align: center;
+    background-color: transparent;
+    text-shadow: 0 0 0 #dddddd;
+    border-width:0px;
+    border:none;
+}
+.status{
+    display: block;
+    color:gold;
+    font-size: 40px;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Download all images discord chanel",
+    "version": "3.0",
+  
+    "description": "Download all images discord chanel",
+    "icons": {
+        "48": "icon.png"
+      },
+    "action": {
+        "default_icon": "icon.png",
+        "default_title": "Download all images discord chanel",    
+        "default_popup": "popup.html"
+      },
+    "background": {
+      "service_worker": "js/background.js"
+    },
+    "content_scripts": [
+      {
+        "js": ["js/content.js"],
+        "matches":["https://discord.com/channels/*"]
+      }
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "permissions":[
+      "sessions",
+      "activeTab",
+      "tabs",
+      "storage",
+      "contextMenus",
+      "scripting",
+      "webRequest"
+    ]
+  }
